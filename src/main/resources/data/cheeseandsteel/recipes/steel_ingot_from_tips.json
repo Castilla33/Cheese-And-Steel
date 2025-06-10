@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cheeseandsteel:steel_tip"
+    }
+  },
+  "result": {
+    "item": "cheeseandsteel:steel_ingot"
+  }
+}

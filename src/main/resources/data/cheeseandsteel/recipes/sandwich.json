@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sandwich",
+  "ingredients": [
+    {
+      "item": "cheeseandsteel:cheese"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:cooked_chicken"
+    },
+    {
+      "tag": "minecraft:leaves"
+    }
+  ],
+  "result": {
+    "item": "cheeseandsteel:sandwich"
+  }
+}

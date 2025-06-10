@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "cheeseandsteel:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "cheeseandsteel:steel_leggings"
+  }
+}

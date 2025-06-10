@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cheese",
+  "ingredients": [
+    {
+      "item": "cheeseandsteel:steel_lid"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "result": {
+    "item": "cheeseandsteel:cheese"
+  }
+}
