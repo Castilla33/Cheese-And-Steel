@@ -10,14 +10,14 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "minecraft:steel_tip"
+      "item": "cheeseandsteel:steel_tip"
     },
     "Y": {
       "item": "minecraft:feather"
     }
   },
   "result": {
-    "item": "minecraft:arrow",
+    "item": "cheeseandsteel:steel_arrow",
     "count": 4
   }
 }

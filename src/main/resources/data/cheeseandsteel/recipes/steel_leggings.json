@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:steel_ingot"
+      "item": "cheeseandsteel:steel_ingot"
     }
   },
   "result": {
-    "item": "minecraft:steel_leggings"
+    "item": "cheeseandsteel:steel_leggings"
   }
 }

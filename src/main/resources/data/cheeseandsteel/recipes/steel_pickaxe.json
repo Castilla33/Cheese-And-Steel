@@ -10,10 +10,10 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "minecraft:steel_ingot"
+      "item": "cheeseandsteel:steel_ingot"
     }
   },
   "result": {
-    "item": "minecraft:steel_pickaxe"
+    "item": "cheeseandsteel:steel_pickaxe"
   }
 }

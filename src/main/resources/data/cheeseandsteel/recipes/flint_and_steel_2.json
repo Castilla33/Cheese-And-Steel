@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:steel_tip"
+      "item": "cheeseandsteel:steel_tip"
     },
     {
       "item": "minecraft:flint"
