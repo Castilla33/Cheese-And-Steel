@@ -12,7 +12,7 @@
       "item": "minecraft:cooked_chicken"
     },
     {
-      "item": "minecraft:oak_leaves"
+      "tag": "minecraft:leaves"
     }
   ],
   "result": {
