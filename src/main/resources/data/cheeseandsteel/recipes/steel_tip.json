@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "steel_tip",
+  "ingredients": [
+    {
+      "item": "cheeseandsteel:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "cheeseandsteel:steel_tip",
+    "count": 9
+  }
+}
