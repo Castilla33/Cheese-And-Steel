@@ -1,6 +1,5 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cheeseandsteel:block/steel_block"
+  "variants": {
+    "": { "model": "cheeseandsteel:block/steel_block" }
   }
 }

@@ -1,6 +1,7 @@
 package com.funkyriffsoul.cheeseandsteel.block;
 
 import com.funkyriffsoul.cheeseandsteel.CheeseAndSteel;
+import com.funkyriffsoul.cheeseandsteel.item.ModItemGroup;
 import com.funkyriffsoul.cheeseandsteel.item.ModItems;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -22,10 +23,12 @@ public class ModBlocks {
             = DeferredRegister.create(ForgeRegistries.BLOCKS, CheeseAndSteel.MOD_ID);
 
     public static final RegistryObject<Block> STEEL_ORE = registerBlock("steel_ore",
-            () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()));
 
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
-            () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()));
 
 
 
@@ -38,7 +41,7 @@ public class ModBlocks {
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block){
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-                new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+                new Item.Properties().group(ModItemGroup.CHEESEANDSTEEL_GROUP)));
     }
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);
