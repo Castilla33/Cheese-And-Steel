@@ -24,18 +24,18 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STEEL_ORE = registerBlock("steel_ore",
             () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
-                    .harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+                    .harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
 
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
-            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
-                    .harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool()));
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
 
 
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
-
+        registerBlockItem(name, toReturn);
         return toReturn;
     }
 
