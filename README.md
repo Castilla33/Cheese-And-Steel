@@ -36,4 +36,4 @@ Player will also be able to craft the steel lid, with the following pattern:
 <sup>(0 standin for nothing and 1 stading for Steel Ingots)</sup>
 <hr>
 This mod have also a steel knife, a powerful a quite quick weapon that can be crafted with one stick and one steel ingot!<br>
-And, as last crafts with steel, player can craft Steel Arrow (No special effect added by now) and steel tip (Wich is used instead of steel when crafting steel arrows) that you can get with a single steel ingot!
+And, as last crafts with steel, player can craft Steel Arrow (Wich isn't funcional on this version, I'll be creating texture and entities for V2) and steel tip (Wich is used instead of steel when crafting steel arrows) that you can get with a single steel ingot!
