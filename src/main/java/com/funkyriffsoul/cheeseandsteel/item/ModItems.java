@@ -1,6 +1,7 @@
 package com.funkyriffsoul.cheeseandsteel.item;
 
 import com.funkyriffsoul.cheeseandsteel.CheeseAndSteel;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
@@ -31,16 +32,16 @@ public class ModItems {
             () -> new AxeItem(ModItemTier.STEEL_INGOT, 0, -1f, new Item.Properties().group(ModItemGroup.CHEESEANDSTEEL_GROUP)));
 
     public static final RegistryObject<Item> STEEL_BOOTS =  ITEMS.register("steel_boots",
-            () -> new Item(new Item.Properties().group(ModItemGroup.CHEESEANDSTEEL_GROUP)));
-    // Missing durability and armor properties
+            () -> new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.FEET,
+                    new Item.Properties().group(ModItemGroup.CHEESEANDSTEEL_GROUP)));
 
     public static final RegistryObject<Item> STEEL_CHESTPLATE =  ITEMS.register("steel_chestplate",
-            () -> new Item(new Item.Properties().group(ModItemGroup.CHEESEANDSTEEL_GROUP)));
-    // Missing durability and armor properties
+            () -> new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(ModItemGroup.CHEESEANDSTEEL_GROUP)));
 
     public static final RegistryObject<Item> STEEL_HELMET =  ITEMS.register("steel_helmet",
-            () -> new Item(new Item.Properties().group(ModItemGroup.CHEESEANDSTEEL_GROUP)));
-    // Missing durability and armor properties
+            () -> new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(ModItemGroup.CHEESEANDSTEEL_GROUP)));
 
     public static final RegistryObject<Item> STEEL_HOE =  ITEMS.register("steel_hoe",
             () -> new HoeItem(ModItemTier.STEEL_INGOT, 0, -1f, new Item.Properties().group(ModItemGroup.CHEESEANDSTEEL_GROUP)));
@@ -52,8 +53,8 @@ public class ModItems {
             () -> new SwordItem(ModItemTier.STEEL_INGOT, 0, 5f, new Item.Properties().group(ModItemGroup.CHEESEANDSTEEL_GROUP)));
 
     public static final RegistryObject<Item> STEEL_LEGGINGS =  ITEMS.register("steel_leggings",
-            () -> new Item(new Item.Properties().group(ModItemGroup.CHEESEANDSTEEL_GROUP)));
-    // Missing durability and armor properties
+            () -> new ArmorItem(ModArmorMaterial.STEEL, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(ModItemGroup.CHEESEANDSTEEL_GROUP)));
 
     public static final RegistryObject<Item> STEEL_LID =  ITEMS.register("steel_lid",
             () -> new Item(new Item.Properties().group(ModItemGroup.CHEESEANDSTEEL_GROUP)));
